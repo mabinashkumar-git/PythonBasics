@@ -10,3 +10,4 @@
 * Download python : https://www.python.org/downloads/
 * Unlike java in class, methods here braces are not used to specifying scope instead indentation are determined. Refer Class.py
 * Open terminal -> give command -> pytest -s -> This will run all pytests under pytest folder
+* Add lanchain, pytest, openai, ragas, ragas in Pythn Interpreter
