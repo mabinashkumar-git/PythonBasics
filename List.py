@@ -4,32 +4,38 @@
 values = [1, 2, "Abinash", 4, 5, 6, 7]
 print(values, type(values))
 print(values[0])
-print("last value", values[-1])
-print(values[1:4])
+print("last value -:", values[-1])
+print("Value -:",values[1:4])
 
-print ("***********************************************")
+print ("******************** 1 ***************************")
 
 values.insert(3, "Kumar")
 values.insert(4, "Mallick")
 print(values)
 
-print ("***********************************************")
+print ("********************* 2 **************************")
 
 values.remove("Kumar")
 print(values)
 
-print ("***********************************************")
+print ("********************* 3 **************************")
 
 values.append("Append")
 print(values)
 
-print ("***********************************************")
+print ("********************* 4 **************************")
 
 values[2] = "ABINASH"
 values[3] = "MALLICK"
 print(values)
 
-print ("***********************************************")
+print ("********************* 5 **************************")
+
+values[3] = "ABINASH"
+values[4] = "MALLICK"
+print(values)
+
+print ("********************** 6 *************************")
 
 values.reverse()
 print(values)

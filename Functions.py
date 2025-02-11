@@ -10,7 +10,7 @@ print("Outside Method")
 
 MethodName()   #Function is called from here
 
-print ("***********************************************")
+print ("********************* 1 **************************")
 
 def MethodName1(name):              #parameterizing
     print("Inside Method1", name)
@@ -18,7 +18,7 @@ def MethodName1(name):              #parameterizing
 
 MethodName1("Abinash Mallick")
 
-print ("***********************************************")
+print ("********************** 2 ************************")
 
 def AddIntegers(a, b):
     sum = a + b

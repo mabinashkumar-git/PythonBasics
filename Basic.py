@@ -4,7 +4,7 @@
 print("hello")
 
 # declaring  variables
-a=3;
+a=3
 print(a)
 
 #Assigining/Declaring a variable
@@ -26,8 +26,8 @@ print(type(d))
 
 e,f, g = 100, 10.2345, 100+3j
 print("Variable type of ", e, "is ", type(e))
-print("Variable type of ", e, "is ", type((f)))
-print("Variable type of ", e, "is ", type((g)))
+print("Variable type of ", e, "is ", type(f))
+print("Variable type of ", e, "is ", type(g))
 
 
 a = "I am first"

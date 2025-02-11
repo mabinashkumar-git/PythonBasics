@@ -5,7 +5,7 @@ for i in obj:   #Syntax in pyhton for declaring loops
     print(i)
     print(i*4)
 
-print ("***********************************************")
+print ("********************** 1 *************************")
 
 #print sum first 5 numbers
 sum = 0
@@ -14,12 +14,12 @@ for j in range(1,6):     #for(int i=1; i<6; i++)
     print(j)
 print(sum)
 
-print ("***********************************************")
+print ("************************ 2 ***********************")
 
 for k in range(1,10,2):   #for(int i=1; i<10; i+2)
     print(k)
 
-print ("***********************************************")
+print ("************************** 3 *********************")
 
 for m in range(5):   # Here loop will start from 0 and will run till 4
     print(m)

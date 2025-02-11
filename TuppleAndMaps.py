@@ -7,7 +7,7 @@
 values = (1, 2, "Abinash", 4, 5, 6, 7)
 print(values, type(values))
 
-print ("***********************************************")
+print ("********************** 1 *************************")
 
 #Maps
 name  = {1:31, 2:"Abinash", 3:"Kumar", "a":"Mallick"}
@@ -16,9 +16,9 @@ print(name[2])
 print(name[3])
 print(name["a"])
 
-print ("***********************************************")
+print ("********************** 2 *************************")
 
 name["Fistname"] = "Animesh"      # Adds to the list mentioned in line no 10
 name["Lastname"] = "Saha"
-print(name)
-print(name["Lastname"])
+print("Name -:", name)
+print("Lastname -:", name["Lastname"])
