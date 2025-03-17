@@ -10,7 +10,7 @@ Ans – int, float, list, tupple, dictionary{“a”:1}, string, boolean
 Ans – Refer Inheritance.py
 
 4 - What is init() in python?
-Ans – The __init__() method is known as contructor in OOP terminology. It is used to initialize an object’s state when it is created. This method is automatically called when a new instance of a class is instantiated.
+Ans – The __init__() method is known as constructor in OOP terminology. It is used to initialize an object’s state when it is created. This method is automatically called when a new instance of a class is instantiated.
 Refer Inheritance.py file
 
 5 - How do you read and write files in Python?
