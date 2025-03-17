@@ -1,0 +1,71 @@
+Playwright Interview questions
+
+1. - What is the difference between a list and a tuple?
+Ans – Refer List.py and TupppleAndMaps.py file
+
+2. - What are Python’s built-in data types?
+Ans – int, float, list, tupple, dictionary{“a”:1}, string, boolean
+
+3 - How do you implement inheritance and super keyword in Python?
+Ans – Refer Inheritance.py
+
+4 - What is init() in python?
+Ans – The __init__() method is known as contructor in OOP terminology. It is used to initialize an object’s state when it is created. This method is automatically called when a new instance of a class is instantiated.
+Refer Inheritance.py file
+
+5 - How do you read and write files in Python?
+Ans – Refer ReadAndWriteFile.py
+
+6 - What are Fixtures in Pytest? when they are used?
+Ans – Refer test_PyTestValidation.py file
+
+7 - How do you use yield for WebDriver Setup and Teardown in pytest?
+Ans – Refer beforeMethod2(): in test_PyTestValidation.py file
+
+8 - How do you create a list of dictionaries in Python?
+Ans – Refer TupppleAndMaps.py file
+
+9 - What is lambda function in Python?
+Ans – Refer Lambda.py file
+
+10 - How Lambda function applies to map() & filter() functions?
+Ans – Refer Lambda.py file
+
+11 - How do you sort a list in Python?
+Ans – Refer Lambda.py file
+
+12 - Is python asynchronous or Synchronous? What is the default type? and what is asyncio?
+Ans – Refer SyncAndAsync.py file
+
+13 - Why is the Self convention used in Python? Explain with an example.
+Ans – Refer SelfKeyword.py file
+
+14 - How do you reverse the elements of a list?
+Ans – Refer SyncAndAsync.py file
+
+15 - Explain the difference between @classmethod and instance methods.
+Ans – Refer ClassMethod.py file
+
+16 - What is the use of conftest.py file in Python pytest?
+Ans – conftest.py is used to define fixtures and hooks that are shared across multiple test files
+
+17 - How do you execute only failed test cases in pytest?
+Ans – pytest --last-failed
+
+18 - How do you apply a custom marker to a test case in pytest?
+Ans –
+           @pytest.mark.smoke
+            def test_initialCheck(preWork, secondWork):
+    		     print("This is first test")
+    		     assert preWork == "fail"
+Command to run above code -: pytest -m smoke
+
+19 - What is the Python “with” statement designed for?
+Ans – The with statement is used for exception handling to make code cleaner and simpler. It is generally used for the management of common resources like creating, editing and saving a file.
+Ex:
+Instead of writing multiple lines of open, try, finally and close and write a text file using the with statement.
+with open(‘myfile.txt’, ‘w’) as file:
+file.write(‘Hello world’)
+
+20 - How to Handle Exceptions in Python? Where does the finally keyword come into play with exceptions?
+Ans – Refer ExceptionHandling.py file
