@@ -5,8 +5,8 @@ class Calculator:
     print("Inside Class")
 
     def __init__(self,a,b):  #Constructor creation .Constructor name should always be innit unlike Java same as classname
-        self.a=a
-        self.b=b
+        self.a = a
+        self.b = b
         print("Constructor is called automatically",a,b)
 
     def getData(self):

@@ -39,3 +39,7 @@ print ("********************** 6 *************************")
 
 values.reverse()
 print(values)
+
+print ("********************** 7 *************************")
+data = [{"name":"Abinash", "Age":34}, {"Name":"Aakash", "age":33}]
+print(data[1]["Name"])

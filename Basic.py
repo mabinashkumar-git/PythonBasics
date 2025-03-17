@@ -4,7 +4,7 @@
 print("hello")
 
 # declaring  variables
-a=3
+a = 3
 print(a)
 
 #Assigining/Declaring a variable
