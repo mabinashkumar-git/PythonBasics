@@ -7,14 +7,14 @@ while value<10:
     print("True", value)
     value = value + 1
 
-print ("***********************************************")
+print ("********************* 1 **************************")
 
 while value1<10:
     if value1 != 7:
         print("True", value1)
     value1 = value1 + 1
 
-print ("***********************************************")
+print ("*********************** 2 ************************")
 
 while value2<10:
     if value2 == 6:
@@ -24,7 +24,7 @@ while value2<10:
         print("In else loop for value2", value2)
     value2 = value2 + 1
 
-print ("***********************************************")
+print ("*********************** 3 ************************")
 
 while value3<10:
     if value3 == 9:

@@ -61,7 +61,8 @@ Ans –
 Command to run above code -: pytest -m smoke
 
 19 - What is the Python “with” statement designed for?
-Ans – The with statement is used for exception handling to make code cleaner and simpler. It is generally used for the management of common resources like creating, editing and saving a file.
+Ans – The with statement is used for exception handling to make code cleaner and simpler. It is generally used for the management of common resources
+      like creating, editing and saving a file.
 Ex:
 Instead of writing multiple lines of open, try, finally and close and write a text file using the with statement.
 with open(‘myfile.txt’, ‘w’) as file:

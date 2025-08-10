@@ -18,7 +18,7 @@ print(name["a"])
 
 print ("********************** 2 *************************")
 
-name["Fistname"] = "Animesh"      # Adds to the list mentioned in line no 10
+name["Fistname"] = "Animesh"      # Adds to the list mentioned in line no 13
 name["Lastname"] = "Saha"
 print("Name -:", name)
 print("Lastname -:", name["Lastname"])

@@ -8,4 +8,4 @@ class Person:
         return f"Hello my name is {self.name} and my age is {self.age} year"
 
 person = Person("Abinash", 33)
-print(person.greet())
+print("person.greet() ======>", person.greet())
